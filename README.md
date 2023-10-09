@@ -139,15 +139,14 @@ cor varchar(50)
 
 - Removendo todos gatos e cachorros
 
-  ````bash
+  ```bash
   DELETE FROM animais
   WHERE especie = 'cachorro';
 
-  ```bash
   DELETE FROM animais
   WHERE especie = 'gato';
 
-  ````
+  ```
 
 - Removendo campo de data de nascimento
 
