@@ -1,14 +1,19 @@
 # base-animais
 
+![](animais.png)
+
 - Criando a tabela animais
 
-CREATE TABLE animais (
-id int,
-nome varchar(50),
-nasc date,
-peso decimal(10,2),
-cor varchar(50)
-);
+  ```bash
+  CREATE TABLE animais (
+  id int,
+  nome varchar(50),
+  nasc date,
+  peso decimal(10,2),
+  cor varchar(50)
+  );
+
+  ```
 
 - Inserindo dados na tabela
 
